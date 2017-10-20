@@ -1,0 +1,78 @@
+/*static*/
+#box_1 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*relative tambien funciona como un static pero con la diferencia que a relative
+si se puede aplicar las propiedades de movimiento*/
+#box1 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box2 { 
+    position: relative;
+    left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box3 { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+/*relative en movimiento ejemplo D*/
+#box { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#boxdos { 
+    position: relative;
+    left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
